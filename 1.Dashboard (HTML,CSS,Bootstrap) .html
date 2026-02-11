@@ -50,7 +50,7 @@
 <div class="container-fluid">                    <!--Full width layout (uses entire screen)-->
     <div class="row">                            <!--Bootstrap row for grid system-->
 
-        <!-- Sidebar -->
+ <!-- Sidebar -->
         <div class="col-md-2 sidebar">                                          <!--clo-mid: bootstrap grid clss ,screen div into total 12 col here for sodebar we taken 2 col, Uses .sidebar custom CSS-->
             <h4 class="text-center">Admin Panel</h4>
             <a href="https://www.kjei.edu.in/trinityacademy/">Dashboard</a>     <!--# means link not connected yet-->
@@ -61,17 +61,17 @@
             <a href="#">Logout</a>
         </div>
 
-        <!-- Main Content -->
+<!-- Main Content -->
         <div class="col-md-10">
 
-            <!-- Navbar -->                                                     <!--Top bar,White background,Small shadow for depth-->
+ <!-- Navbar -->                                                     <!--Top bar,White background,Small shadow for depth-->
             <nav class="navbar navbar-light bg-white shadow-sm">
                 <div class="container-fluid">
                     <span class="navbar-brand mb-0 h4">College / Exam Admin Dashboard</span>
                 </div>
             </nav>
 
-            <!-- Cards -->
+<!-- Cards -->
             <div class="container mt-4">                                       <!--mt-4 : margin top-->
                 <div class="row g-2">                                          <!--g-4 → space between cards-->
                                                                                <!--Desktop → 4 cards in one row,Mobile → 2 cards per row-->
@@ -109,12 +109,45 @@
                                 <h3>7</h3>
                             </div>
                         </div>
+                    </div> 
+                    
+<!-- Vertical Graph Section -->
+            <h4>Statistics Overview</h4>
+
+            <div class="graph-container mt-3">
+
+                <div class="d-flex justify-content-around align-items-end bar-area">
+
+                    <!-- Students -->
+                    <div class="text-center">
+                        <div class="bar bg-primary" style="height: 220px;"></div>
+                        <p class="mt-2">Students</p>
                     </div>
+
+                    <!-- Exams -->
+                    <div class="text-center">
+                        <div class="bar bg-success" style="height: 120px;"></div>
+                        <p class="mt-2">Exams</p>
+                    </div>
+
+                    <!-- Results -->
+                    <div class="text-center">
+                        <div class="bar bg-warning" style="height: 150px;"></div>
+                        <p class="mt-2">Results</p>
+                    </div>
+
+                    <!-- Faculty -->
+                    <div class="text-center">
+                        <div class="bar bg-danger" style="height: 100px;"></div>
+                        <p class="mt-2">Faculty</p>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 </body>
 
     
